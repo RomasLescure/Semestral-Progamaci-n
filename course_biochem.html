@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Curso de Quimica y Biologia</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="portal">
+    <header>
+        <a href="home.html" id="homebutton">
+            <img id="logo" src="media\logo1.png">
+        </a>
+        <div>
+            <h2>
+                solociencia.com
+            </h2>
+        </div>
+    </header>
+    <section class="filler">
+        <div id="bio">
+            <div class="form">
+                <br><br><h3>Registro para Curso de Quimica y Biologia</h3><br><br>
+                <form method="post" action="course.jsp">
+                    <label for="usuario">Nombre del participante:</label>
+                    <input type="text" id="usuario" name="name" required><br>
+                    <br>
+                    <label for="id">Cedula:</label>
+                    <input type="text" id="id" name="cid" required><br>
+                    <br>
+                    <fieldset>
+                        <legend>Fecha de inicio del curso</legend><br>
+                        <label><input type="radio" name="start" value="20 de julio">20 de julio</label><br>
+                        <label><input type="radio" name="start" value="24 de octubre">24 de octubre</label><br>
+                        <label><input type="radio" name="start" value="14 de noviembre">14 de noviembre</label><br><br>
+                    </fieldset>
+                    <input type="number" id="hide" name="course" value="2">
+                    <!--
+                        <input type="radio" id="hide" name="course" value="2" checked>
+                    -->
+                    <br><br><hr>
+                    <button  class="button" id="register" value="Submit">
+                        Registrarse en el curso
+                    </button>
+                    <hr>
+                </form>
+                </div>
+            </div>
+        </section>
+    </body>
+    </html>

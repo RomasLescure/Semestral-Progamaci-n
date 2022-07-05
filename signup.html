@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sing Up</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="portal">
+    <header>
+        <img id="logo" src="media\logo1.png">
+        <div>
+            <h2>
+                solociencia<a href="home.html">.</a>com
+            </h2>
+        </div>
+    </header>
+    <section class="signup">
+        <div class="north">
+            <h3>Crear nueva cuenta</h3><br><hr>
+            <div class="inside">
+                <form method="post" action="signup.jsp">
+                    <br><br><br><br>
+                    <label for="usuario">Usuario<br></label>
+                    <input type="text" id="usuario" name="user" required><br>
+                    <br>
+                    <label for="apellido">Apellido<br></label>
+                    <input type="text" id="apellido" name="surn" required><br>
+                    <br>
+                    <label for="edad">Edad<br></label>
+                    <input type="number" id="edad" name="age" required><br>
+                    <br>
+                    <label for="clave">Contrase&ntildea<br></label>
+                    <input type="password" id="clave" name="pass" required><br>
+                    <br><br><br><br>
+                    <button  class="button" value="Submit">
+                        Registrarse
+                    </button>
+                </form>
+            <br><br><br><br><br><br>
+            <a href="login.html">
+                <button  class="button" value="Submit">
+                    Regresar a Log In
+                </button>
+            </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

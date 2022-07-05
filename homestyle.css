@@ -1,0 +1,146 @@
+.house{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color: #fffb9a;
+}
+.media{
+   text-align: center;
+   font-size: 18px;
+   width: 31%;
+   margin: 0px;
+   position: relative;
+   padding-bottom: 50px;
+   margin: auto;
+   margin-top: 40px;
+   overflow-x: hidden;
+}
+.nofill{
+   display: flex;
+   width: 100%;
+   max-height: min-content;
+}
+.more{
+   text-align: center;
+   font-size: 18px;
+   height: auto;
+   width: 30%;
+   margin:  auto 30px auto 30px;
+   padding-bottom: -50px;
+}
+.more:hover{
+   background-color: white;
+   opacity: 0.5;
+   transition: 300ms;
+   border: 1px solid white;
+   border-radius: 15px;
+}
+
+.video{
+   height: fit-content;
+   padding: 50px 0px 0px 0px;
+}
+iframe{
+   margin: auto 20px auto 20px;
+   width: 80%;
+   height: 310px;
+}
+
+#v1{
+   background-color: #8ce6bc;
+   height:min-content;
+   border-radius: 15px;
+}
+#v2{
+   background-color: #9fa6c8;
+   height:min-content;
+   border-radius: 15px;
+}
+#v3{
+   background-color: #acef69;
+   height:min-content;
+   border-radius: 15px;
+}
+#t1{
+   background-color: #1ea4b7;
+   padding: 10px;
+   color: white;
+   border-radius: 15px;
+}
+#t2{
+   background-color: #ae20e0;
+   padding: 10px;
+   color: white;
+   border-radius: 15px;
+}
+#t3{
+   background-color: #40b219;
+   padding: 10px;
+   color: white;
+   border-radius: 15px;
+}
+
+#menu{
+   display: block;
+   background-color: #ffa44d;
+   font-size: 22px;
+   padding: 5px;
+   padding-left: 20px;
+   margin: 15px auto auto 25px;
+   width: 45%;
+}
+#nav{
+   width: 90%;
+   margin: auto;
+   margin-bottom: 75px;
+   font-weight: bold;
+   flex-wrap: wrap;
+}
+
+
+#signout{
+   height: 30px;
+   width: auto;
+   border: 2px solid black;
+   
+   position: absolute;
+   margin: -10px 15px auto 90%;
+   width: 150px;
+}
+#signout:hover{
+   background-color:  #504ed7;
+   color: white;
+   transition: 200ms;
+
+   margin: -10px 15px auto 89%;
+   transition: 200ms;
+}
+
+.option{
+   width:15%;
+   text-align: center;
+   padding: 20px;
+   overflow-wrap: break-word;
+}
+.option:hover{
+   background-color: black;
+   color: black;
+   opacity: 0.5;
+   transition: 300ms;
+   font-size: 20px;
+   border: 5px solid black;
+}
+
+#natsci{
+   background-color: #8ae7db;
+}
+#biochem{
+   background-color: #f9b38c;
+}
+#coding{
+   background-color: #d7fd87;
+}
+#references{
+   background-color: #ffd27b;
+}
+#aboutus{
+   background-color: #ffaded;
+}
