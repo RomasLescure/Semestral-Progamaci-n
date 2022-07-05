@@ -5,11 +5,11 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Log In</title>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="..\styles\styles.css">
 </head>
 <body class="portal">
     <header>
-        <img id="logo" src="media\logo1.png">
+        <img id="logo" src="..\media\logo1.png">
         <div>
             <h2>
                 solociencia.com
@@ -50,7 +50,7 @@
                     ResultSet result = vQuery.executeQuery();
                     
                     if(result.next()){
-                    	response.sendRedirect("home.html");
+                    	response.sendRedirect("..\\sites\\home.html");
                     }
                     else
                         out.print("<p class='error'>Error: Usuario o contrase&ntildea invalidos<br>");
@@ -60,7 +60,7 @@
                     }
                     
                 %>
-                <hr>Si no tiene una cuenta, se puede registrar <a href="signup.html">aqui</a>.<hr>
+                <hr>Si no tiene una cuenta, se puede registrar <a href="..\sites\signup.html">aqui</a>.<hr>
                 </div>
             </div>
         </section>

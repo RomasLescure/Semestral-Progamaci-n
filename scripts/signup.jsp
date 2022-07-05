@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Sing Up</title>
 </head>
-<body class="portal">
+<body>
 	<%@page import="java.sql.*" %>
 	<%  
         // Form data
@@ -21,7 +21,7 @@
         Statement dbstatement = dbconnect.createStatement();
         String insertsql = "INSERT INTO accounts (username,surname,age,password) values('"+usuario+"','"+apellido+"','"+edad+"','"+contrasena+"')";
         dbstatement.executeUpdate(insertsql);
-        response.sendRedirect("login.html");
+        response.sendRedirect("..\\sites\\login.html");
     %>
 </body>
 </html>

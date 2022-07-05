@@ -3,13 +3,13 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Curso de Programacion</title>
-<link rel="stylesheet" href="styles.css">
+<title>Curso de Ciencias Naturales</title>
+<link rel="stylesheet" href="..\styles\styles.css">
 </head>
 <body class="portal">
     <header>
         <a href="home.html" id="homebutton">
-            <img id="logo" src="media\logo1.png">
+            <img id="logo" src="..\media\logo1.png">
         </a>
         <div>
             <h2>
@@ -18,10 +18,10 @@
         </div>
     </header>
     <section class="filler">
-        <div id="prog">
+        <div id="sci">
             <div class="form">
-                <br><br><h3>Registro para Curso de Programacion</h3><br><br>
-                <form method="post" action="course.jsp">
+                <br><br><h3>Registro para Curso de Ciencias Naturales</h3><br><br>
+                <form method="post" action="..\scripts\course.jsp">
                     <label for="usuario">Nombre del participante:</label>
                     <input type="text" id="usuario" name="name" required><br>
                     <br>
@@ -34,9 +34,9 @@
                         <label><input type="radio" name="start" value="24 de octubre">24 de octubre</label><br>
                         <label><input type="radio" name="start" value="14 de noviembre">14 de noviembre</label><br><br>
                     </fieldset>
-                    <input type="number" id="hide" name="course" value="3">
+                    <input type="number" id="hide" name="course" value="1">
                     <!--
-                        <input type="radio" id="hide" name="course" value="3" checked>
+                        <input type="radio" id="hide" name="course" value="1" checked>
                     -->
                     <br><br><hr>
                     <button  class="button" id="register" value="Submit">

@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Sing Up</title>
 </head>
-<body class="portal">
+<body>
 	<%@page import="java.sql.*" %>
 	<%  
         String nombre = request.getParameter("name");
@@ -34,7 +34,7 @@
         String insertsql = "INSERT INTO "+table+" (name,cid,startdate) values('"+nombre+"','"+cedula+"','"+fecha+"')";
         dbstatement.executeUpdate(insertsql);
         
-        response.sendRedirect("home.html");
+        response.sendRedirect("..\\sites\\home.html");
     %>
 </body>
 </html>
