@@ -21,7 +21,7 @@
         Statement dbstatement = dbconnect.createStatement();
         String insertsql = "INSERT INTO accounts (username,surname,age,password) values('"+usuario+"','"+apellido+"','"+edad+"','"+contrasena+"')";
         dbstatement.executeUpdate(insertsql);
-        response.sendRedirect("..\\sites\\login.html");<!--usamos 2 back slash para hacer uso de la tenica escape sequence, este nos permite colocar la dirección del archivo para la redirección-->
+        response.sendRedirect("..\\sites\\login.html");//usamos 2 back slash para hacer uso de la tenica escape sequence, este nos permite colocar la dirección del archivo para la redirección
     %>
 </body>
 </html>
