@@ -64,18 +64,21 @@ iframe{
    padding: 10px;
    color: white;
    border-radius: 15px;
+   font-weight: bold;
 }
 #t2{
    background-color: #ae20e0;
    padding: 10px;
    color: white;
    border-radius: 15px;
+   font-weight: bold;
 }
 #t3{
    background-color: #40b219;
    padding: 10px;
    color: white;
    border-radius: 15px;
+   font-weight: bold;
 }
 
 #menu{

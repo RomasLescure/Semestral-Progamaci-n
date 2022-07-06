@@ -24,7 +24,7 @@ header{
 
 #logo{
     background-color: #ffffff;
-    border-radius: 25px;
+    border-radius: 100%;
     border: 10px solid #fe7b7b;
 
     height: 105px;
@@ -217,6 +217,7 @@ fieldset{
     flex: 1;
     flex-grow: 1;
     max-height: min-content;
+    overflow-x: auto;
 
 }
 
