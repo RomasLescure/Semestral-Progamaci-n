@@ -259,3 +259,7 @@ h6{
     border: 7px solid white;
     border-radius: 15px;
 }
+input[type=text],input[type=password],input[type=number]{
+    width: 200px;
+    height: 25px;
+}
