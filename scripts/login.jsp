@@ -41,7 +41,8 @@
                     Class.forName("com.mysql.jdbc.Driver"); //
                     Connection dbconnect = DriverManager.getConnection("jdbc:mysql://localhost:3306/solocienciaDB","root","");
                     
-                    try
+                    try <!-- el trycatch aqui se encarga de intentar este bloque que valida la existencia del usuario, si esta no existe tiene dos posibles respuestas predeterminadas
+                                mediante el catch -->  
                     {
                     PreparedStatement vQuery = dbconnect.prepareStatement("SELECT * FROM accounts WHERE username=? AND password=?");
                     vQuery.setString(1, usuario);
